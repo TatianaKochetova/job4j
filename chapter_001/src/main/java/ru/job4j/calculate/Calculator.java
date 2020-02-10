@@ -1,4 +1,8 @@
-package ru.Job4j.calculator;
+/**
+ * Calculator.
+ * @author Kochetova Tatiana (t.kochetova514@gmail.com)
+ */
+package ru.job4j.calculate;
 
 public class Calculator {
     public static void add(double first, double second) {
@@ -19,6 +23,10 @@ public class Calculator {
         double result = first - second;
         System.out.println(first + "-" + second + "=" + result);
     }
+    /**
+     * Main.
+     * @param args - args.
+     */
     public static void main(String[] args) {
         add(1, 1);
         div(4, 2);
