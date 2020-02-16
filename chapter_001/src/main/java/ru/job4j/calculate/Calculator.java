@@ -1,8 +1,9 @@
+
+package ru.job4j.calculate;
 /**
  * Calculator.
  * @author Kochetova Tatiana (t.kochetova514@gmail.com)
  */
-package ru.job4j.calculate;
 
 public class Calculator {
     public static void add(double first, double second) {
